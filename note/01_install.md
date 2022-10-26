@@ -1,4 +1,5 @@
 ## Win
+https://community.chocolatey.org/packages/golang
 ```
 choco install -y golang
 choco upgrade -y golang
