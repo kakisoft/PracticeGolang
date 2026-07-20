@@ -43,7 +43,7 @@ hello(new Cat());
 ```
 
 
-## Go
+# Go
 ```go
 package main
 
