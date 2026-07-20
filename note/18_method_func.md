@@ -15,3 +15,28 @@ func TestAddHandler(t *testing.T) {}
 ```
 
 
+
+#
+```go
+package main
+
+import "fmt"
+
+// 構造体
+type Handler struct {
+	Name string
+}
+
+// Handler のメソッド
+func (h *Handler) Add() {
+	fmt.Println("Hello,", h.Name)
+}
+
+func main() {
+	handler := &Handler{
+		Name: "Taro",
+	}
+
+	handler.Add()
+}
+```
